@@ -25,6 +25,7 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
@@ -55,7 +56,6 @@ body {
 .site-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -63,7 +63,6 @@ body {
 .contact .link {
   color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -112,7 +111,6 @@ section {
 
 .section-list .title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -120,8 +118,6 @@ section {
 
 .section-list .text {
   color: var(--secondary-text-color);
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
@@ -141,7 +137,6 @@ section {
 .team-list .text,
 .gallery-list .text {
   color: var(--secondary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 
@@ -164,8 +159,6 @@ section {
 
 .address-list .route {
   color: var(--primary-bg-color);
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 
   letter-spacing: 0.03em;
@@ -173,8 +166,6 @@ section {
 
 .address-list .link {
   color: var(--white-blurred);
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 
   letter-spacing: 0.03em;
@@ -190,7 +181,7 @@ section {
   font-size: 16px;
   line-height: 1.8;
   display: flex;
-  align-items: center;
+  margin: auto;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
